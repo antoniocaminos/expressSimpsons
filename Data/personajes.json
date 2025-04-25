@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "nombre": "Homer Simpson",
+    "ocupacion": "Inspector de seguridad",
+    "personalidad": "Perezoso y glotón"
+  },
+  {
+    "id": 2,
+    "nombre": "Marge Simpson",
+    "ocupacion": "Ama de casa",
+    "personalidad": "Paciente y amorosa"
+  },
+  {
+    "id": 3,
+    "nombre": "Bart Simpson",
+    "ocupacion": "Estudiante",
+    "personalidad": "Rebelde y travieso"
+  },
+  {
+    "id": 4,
+    "nombre": "Lisa Simpson",
+    "ocupacion": "Estudiante",
+    "personalidad": "Inteligente y ética"
+  },
+  {
+    "id": 5,
+    "nombre": "Maggie Simpson",
+    "ocupacion": "Bebé",
+    "personalidad": "Silenciosa pero astuta"
+  },
+  {
+    "id": 6,
+    "nombre": "Ned Flanders",
+    "ocupacion": "Propietario de la tienda zurda",
+    "personalidad": "Religioso y amable"
+  },
+  {
+    "id": 7,
+    "nombre": "Milhouse Van Houten",
+    "ocupacion": "Estudiante",
+    "personalidad": "Inseguro y leal"
+  },
+  {
+    "id": 8,
+    "nombre": "Mr. Burns",
+    "ocupacion": "Dueño de la planta nuclear",
+    "personalidad": "Avaro y sin escrúpulos"
+  },
+  {
+    "id": 9,
+    "nombre": "Moe Szyslak",
+    "ocupacion": "Cantinero",
+    "personalidad": "Gruñón y solitario"
+  },
+  {
+    "id": 10,
+    "nombre": "Krusty el Payaso",
+    "ocupacion": "Comediante",
+    "personalidad": "Cínico y famoso"
+  },
+  {
+    "nombre": "Homer Simpson",
+    "id": 11
+  },
+  {
+    "nombre": "pepe",
+    "id": 12
+  },
+  {
+    "nombre": "Ralph Wiggum",
+    "ocupacion": "Estudiante",
+    "personalidad": "Ingenuo y gracioso",
+    "id": 13
+  }
+]
