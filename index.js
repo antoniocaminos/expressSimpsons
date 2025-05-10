@@ -15,5 +15,7 @@ app.use('/personajes', personajesRoutes);
 
 // Levantamos el servidor
 app.listen(PORT, () => {
-  console.log(`Servidor corriendo en http://localhost:${PORT}`);
+  console.log(`Server is alive at port:${PORT}`);
 });
+/* ruta para renderizar nuestro back en html */
+app.use(express.static('public'))

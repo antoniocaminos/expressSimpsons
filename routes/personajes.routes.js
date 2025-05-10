@@ -1,24 +1,18 @@
-// Importamos Router desde express para definir rutas en este archivo
-import { Router } from 'express';
 
-// Importamos las funciones para leer y escribir el archivo
-import { leerPersonajes, escribirPersonajes } from '../utils/fileHandler.js';
-
-// Creamos una nueva instancia del router
-const router = Router();
-
-// Definimos la ruta para obtener todos los personajes
-router.get('/', async (req, res) => {
+import { Router } from 'express';// Importamos Router desde express para definir rutas en este archivo
+import { leerPersonajes, escribirPersonajes } from '../utils/fileHandler.js';// Importamos las funciones para leer y escribir el archivo
+const router = Router();// Creamos una nueva instancia del router
+router.get('/', async (req, res) => {// Definimos la ruta para obtener todos los personajes
     const personajes = await leerPersonajes(); // Leemos todos los personajes del archivo
     res.json(personajes); // Respondemos con el array de personajes en formato JSON
   });
 
-  router.get('/:id', async (req, res) => {
-  const personajes = await leerPersonajes(); // Leemos los personajes
+  router.get('/:id', async (req, res) => {// Leemos los personajes
+  const personajes = await leerPersonajes(); 
   const personaje = personajes.find(p => p.id === parseInt(req.params.id)); // Buscamos el ID
 
-  if (!personaje) {
-    // Si no se encuentra, respondemos con error
+  if (!personaje) {// Si no se encuentra, respondemos con error
+    
     return res.status(404).json({ error: 'Personaje no encontrado' });
   }
 
